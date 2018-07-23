@@ -1,0 +1,115 @@
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid orange;
+    position: relative;
+    width: 600px;
+ }
+ body {
+   font-size: 18px;
+   background-color: black;
+   color: white;
+ }
+ h1 {
+   color: blue;
+   font-size: 36px; 
+   background: cyan;
+   border: 5px solid green;
+   box-sizing: inline-block;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   width: 650px;
+ }
+ h2 {
+   color: green;
+   font-size: 20px;
+   background: orange;
+   border: 5px solid blue;
+   width: 100px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 50px;
+ }
+
+ h3 {
+   text-align: center;
+   margin-top: 85px;
+   border: 3px dashed green;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   width: 300px;
+   -webkit-animation: color-change 3s infinite;
+    -moz-animation: color-change 3s infinite;
+    -o-animation: color-change 3s infinite;
+    -ms-animation: color-change 3s infinite;
+    animation: color-change 3s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: red; }
+    15% { color: orange; }
+    30% { color: yellow; }
+    45% { color: green; }
+    60% { color: blue; }
+    75% { color: indigo; }
+    90% { color: violet; }
+    100% { color: red; }
+}
+@-moz-keyframes color-change {
+  0% { color: red; }
+  15% { color: orange; }
+  30% { color: yellow; }
+  45% { color: green; }
+  60% { color: blue; }
+  75% { color: indigo; }
+  90% { color: violet; }
+  100% { color: red; }
+}
+@-ms-keyframes color-change {
+  0% { color: red; }
+  15% { color: orange; }
+  30% { color: yellow; }
+  45% { color: green; }
+  60% { color: blue; }
+  75% { color: indigo; }
+  90% { color: violet; }
+  100% { color: red; }
+}
+@-o-keyframes color-change {
+  0% { color: red; }
+  15% { color: orange; }
+  30% { color: yellow; }
+  45% { color: green; }
+  60% { color: blue; }
+  75% { color: indigo; }
+  90% { color: violet; }
+  100% { color: red; }
+}
+@keyframes color-change {
+  0% { color: red; }
+  15% { color: orange; }
+  30% { color: yellow; }
+  45% { color: green; }
+  60% { color: blue; }
+  75% { color: indigo; }
+  90% { color: violet; }
+  100% { color: red; }
+}
+ 
+ table{
+   overflow-y:scroll;
+   display: block;
+ }
+ td {
+   border: 5px solid blue;
+ }
